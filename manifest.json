@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Zendino - Zen Dino",
+  "version": "1.0",
+  "description": "Jump over cacti and make them bloom - a healing game",
+  "offline_enabled": true,
+  "permissions": [],
+  "action": {
+    "default_title": "Play Zendino"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

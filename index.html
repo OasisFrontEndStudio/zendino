@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zendino - Zen Dino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas"></canvas>
+    <div id="beauty-meter">
+      <span class="label">Beauty</span>
+      <div class="progress-bar">
+        <div id="beauty-fill"></div>
+      </div>
+      <span id="beauty-percent">0%</span>
+    </div>
+    <div id="controls-hint">Space: Jump | Down Arrow: Duck | ESC: Pause</div>
+    <div id="message-overlay" class="hidden">
+      <div id="message-content"></div>
+      <div id="message-buttons"></div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
